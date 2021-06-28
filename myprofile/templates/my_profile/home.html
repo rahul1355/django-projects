@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="{% static 'css/mystyle.css' %}" />
+    <script src="https://kit.fontawesome.com/7de7e81e1b.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <br>
+    <div class="conatiner">
+        <div class="row">
+            <div class="col-md-3" id="profile-wrapper">
+                <div class="card card-body h-100">
+                    <img id="profile-pic" src="{% static 'images/mypic.jpg' %}" alt="no image" />
+                    <br>
+                    <h1>I am Rahul</h1>
+                    <p>I am an Instructor</p>
+                </div>
+            </div>
+
+            <div class="col-md-9">
+                <div class="card card-body h-100">
+                    <h1>My first job as a Game Tester</h1>
+                    <hr>
+                    <p>As i want to test the game and tell them if there is any bug
+                        while playing
+                    </p>
+                    <p>I have played almost so many computer games</p>
+                    <ul class="social-links">
+                        <li><i class="fab fa-facebook"></i></li>
+                        <li><i class="fab fa-instagram"></i></li>
+                        <li><i class="fab fa-whatsapp"></i></li>
+                        <li><i class="fab fa-twitter"></i></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body">
+                    <h5>My experience as a Instructor</h5>
+                    <hr>
+                    <p>I have learnt more things while explaining</p>
+                    <p>If you explaine you can learn more things</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card card-body">
+                    <h5>What I can Train for students</h5>
+                    <hr>
+                    <p>Python, Django Frameworks, HTML, CSS, JS, Java </p>
+                    <p>And also programming sessions</p>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card card-body">
+                    <h5>How I learn to Teach</h5>
+                    <hr>
+                    <p>While explaining we can figure out more things</p>
+                    <p>While explaining only we will get more knowledge</p>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="card card-body">
+                    <h5>My support to my team</h5>
+                    <hr>
+                    <p>I have take so many class of different technologies when my team mate is sck
+                        I have handled more than 6 to 7 hours of class in a day..,
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
